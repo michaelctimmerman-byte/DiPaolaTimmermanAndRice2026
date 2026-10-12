@@ -23,7 +23,7 @@ window.SITE = {
   config: {
     // Set to false before launch. When true, amber "setup" notes are
     // visible on the page so the team can see what still needs work.
-    showSetupNotes: true,
+    showSetupNotes: false,
 
     lastUpdated: "October 11, 2026",
 
@@ -88,7 +88,7 @@ window.SITE = {
       office: "Mayor",
       title: "Mayor of Emerson",
       party: "Republican",
-      photo: "assets/img/dipaola",
+      photo: "dipaola",
       alt: "Mayor Danielle DiPaola standing beside an American flag in the Emerson council chambers",
       highlights: [
         { lead: "Lifelong Emerson Resident", text: "Danielle has called Emerson home her entire life and has served the Borough in various capacities for more than 15 years." },
@@ -102,7 +102,7 @@ window.SITE = {
       office: "Borough Council",
       title: "Councilman",
       party: "Republican",
-      photo: "assets/img/timmerman",
+      photo: "timmerman",
       alt: "Councilman Michael Timmerman in a dark suit beside an American flag",
       highlights: [
         { lead: "Proud Emerson Resident", text: "Mike has lived in Emerson for 14 years, raising his two children alongside his wife, Jessica, and building a life rooted in the community." },
@@ -116,7 +116,7 @@ window.SITE = {
       office: "Borough Council",
       title: "Council President",
       party: "Republican",
-      photo: "assets/img/rice",
+      photo: "rice",
       alt: "Council President Ashley Rice standing beside an American flag",
       highlights: [
         { lead: "Dedicated to Service", text: "Ashley’s commitment to helping others extends beyond municipal government to her career as a public educator and home health aide." },
@@ -182,7 +182,7 @@ window.SITE = {
         basis: "projection",
         setup: "Confirm the calculation, the period covered, and whether the savings are realized or projected."
       },
-      photo: "assets/img/team-working",
+      photo: "team-working",
       alt: "Mayor DiPaola, Councilman Timmerman, and Council President Rice reviewing documents at a table in Borough Hall",
       caption: "Reviewing materials at Borough Hall.",
       extras: ["taxChart", "sharedServices"]
